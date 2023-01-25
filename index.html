@@ -38,22 +38,24 @@
     <div class="contaner">
         <!-- start header    -->
         <!--                https://wowjs.uk                this linke is wowjs -->
-        <nav class="navbar navbar-light bg-light">
+        <nav class="navbar navbar-light bg-light ">
         <div class="container-fluid ">
             <a class="navbar-brand text-danger fs-1 animate__rubberBand wow"  style="font-family: 'Dancing Script'" href="#">
             Hello sir
             </a>
         </div>
-        <div class="container-fluid ">
+        <div class="container-fluid col ">
         <pre class="navbar-brand text-danger fs-1  animate__backInLeft   mx-sm-auto"  style="font-family: 'Dancing Script'">
             <p class="animate__backInLeft wow animate_delay_02">WELCOM TO </p> 
             <p class="animate__backInLeft wow animate_delay_04"> MY PAGE</p>
          </pre>
-         <img src="/image/welcome_page.png" style=" width: 500px;" class=" col-8 mx-auto animate__backInDown wow animate_delay_10" alt="">
+         <img src="/image/welcome_page.png" style=" width: 500px;  " class=" col-8 mx-auto animate__backInDown wow animate_delay_10" alt="">
+         
          </div>
+
+       
         </nav>
-      
-       <div class="row  justify-content-center  align-items-center ">
+        <div class="row  justify-content-center  align-items-center mx-auto ">
             <div class="col-lg-5 col-sm-12  d-flex justify-content-end ">
                 <div class="text-start justify-content-lg-end mx-sm-auto fs-1" style="width: fit-content;">
                     <h6 class="animate__backInLeft wow animate_delay_02 mb-4">HELLO</h6>
@@ -177,7 +179,195 @@
             </div>
         </div>
       
+        <!-- start the cards -->
+        <div class="container mt-5">
+            <div class="text-center">
+                <h1 style="font-family: 'Dancing Script'" class="text-danger animate__backInLeft wow animate__12">SOME WORKS</h1>
+                <h1 class="animate__backInRight wow animate__12">- MY PORTOFOLIO -</h1>
+            </div>
+        </div>
+        <div class="container-fluid ">
 
+            <div class="d-flex tabs d-flex justify-content-center gap-4 d-none d-sm-flex  ">
+                <div class="btn-primary btn animate__heartBeat animate_delay_12 wow" data-bt="all" >ALL</div>
+                <div class="btn-primary btn animate__heartBeat animate_delay_12 wow" data-bt="web" >WEB</div>
+                <div class="btn-primary btn animate__heartBeat animate_delay_12 wow" data-bt="android" >ANDROID</div>
+                <div class="btn-primary btn animate__heartBeat animate_delay_12 wow" data-bt="ios" >IOS</div>
+            </div>
+        
+        
+            <div class="row justify-content-center d-none d-sm-flex  "  >
+        
+                <div class="col-sm-6 col-md-4 text-center p-0 pt-2 justify-content-center tab wow animate__fadeInTopLeft animate__16  animate_delay_10"  data-bt="web">
+                    <div class="border width-fit-content mx-auto">
+                        <img src="image/01.jpg" class="img-fluid" alt="" />
+                        <p class="text-muted"> Lorem ipsum dolor sit. </p>
+                        <h6> Lorem ipsum </h6>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 text-center p-0 pt-2 justify-content-center tab wow animate__fadeInDownBig animate__16  animate_delay_10" data-bt="android">
+                    <div class="border width-fit-content mx-auto">
+                        <img src="image/02.jpg" class="img-fluid" alt="" />
+                        <p class="text-muted"> Lorem ipsum dolor sit. </p>
+                        <h6> Lorem ipsum </h6>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 text-center p-0 pt-2 justify-content-center tab wow  animate__fadeInTopRight animate__16  animate_delay_10" data-bt="web">
+                    <div class="border width-fit-content mx-auto">
+                        <img src="image/03.jpg" class="img-fluid" alt="" />
+                        <p class="text-muted"> Lorem ipsum dolor sit. </p>
+                        <h6> Lorem ipsum </h6>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 text-center p-0 pt-2 justify-content-center tab wow animate__fadeInBottomLeft animate__16  animate_delay_10" data-bt="ios">
+                    <div class="border width-fit-content mx-auto">
+                        <img src="image/04.jpg" class="img-fluid" alt="" />
+                        <p class="text-muted"> Lorem ipsum dolor sit. </p>
+                        <h6> Lorem ipsum </h6>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 text-center p-0 pt-2 justify-content-center tab wow animate__fadeInUpBig animate__16  animate_delay_10" data-bt="android">
+                    <div class="border width-fit-content mx-auto">
+                        <img src="image/05.jpg" class="img-fluid" alt="" />
+                        <p class="text-muted"> Lorem ipsum dolor sit. </p>
+                        <h6> Lorem ipsum </h6>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 text-center p-0 pt-2 justify-content-center tab wow animate__fadeInBottomRight animate__16  animate_delay_10" data-bt="ios">
+                    <div class="border width-fit-content mx-auto">
+                        <img src="image/06.jpg" class="img-fluid" alt="" />
+                        <p class="text-muted"> Lorem ipsum dolor sit. </p>
+                        <h6> Lorem ipsum </h6>
+                    </div>
+                </div>
+            </div>
+        
+        
+        
+            
+            <div class="games d-flex d-sm-none justify-content-center flex-column gap-5">
+                <div class="card w-50">
+                    <div class="imgbox w-100">
+                        <img src="image/01.jpg" style="width:100%" alt="Sekiro: Shadows Die Twice">
+                        <div class="back">
+                            <h2>Sekiro: Shadows Die Twice</h2>
+                            <p>Sekiro: Shadows Die Twice is a 2019 action-adventure game developed by FromSoftware and published by Activision. The game follows a shinobi known as Wolf as he attempts to take revenge on a samurai clan who attacked him and kidnapped his lord.</p>
+                        </div>
+                    </div>
+                    <div class="details ">
+                        <div class="content">
+                            <span>Initial release date</span> : March 22, 2019<br>
+                            <span>Developer</span> : FromSoftware Inc.<br>
+                            <span>Publisher</span> : Activision<br>
+                            <span>type</span> : Action-adventure<br>
+                            <span>Platforms</span> : Microsoft Windows, PlayStation 4, Xbox One, Stadia
+                        </div>
+                    </div>
+                </div>
+                <div class="card w-50">
+                    <div class="imgbox w-100">
+                        <img src="image/02.jpg" style="width:100%" alt="Sekiro: Shadows Die Twice">
+                        <div class="back">
+                            <h2>Sekiro: Shadows Die Twice</h2>
+                            <p>Sekiro: Shadows Die Twice is a 2019 action-adventure game developed by FromSoftware and published by Activision. The game follows a shinobi known as Wolf as he attempts to take revenge on a samurai clan who attacked him and kidnapped his lord.</p>
+                        </div>
+                    </div>
+                    <div class="details ">
+                        <div class="content">
+                            <span>Initial release date</span> : March 22, 2019<br>
+                            <span>Developer</span> : FromSoftware Inc.<br>
+                            <span>Publisher</span> : Activision<br>
+                            <span>type</span> : Action-adventure<br>
+                            <span>Platforms</span> : Microsoft Windows, PlayStation 4, Xbox One, Stadia
+                        </div>
+                    </div>
+                </div>
+                <div class="card w-50">
+                    <div class="imgbox w-100">
+                        <img src="image/03.jpg" style="width:100%" alt="Sekiro: Shadows Die Twice">
+                        <div class="back">
+                            <h2>Sekiro: Shadows Die Twice</h2>
+                            <p>Sekiro: Shadows Die Twice is a 2019 action-adventure game developed by FromSoftware and published by Activision. The game follows a shinobi known as Wolf as he attempts to take revenge on a samurai clan who attacked him and kidnapped his lord.</p>
+                        </div>
+                    </div>
+                    <div class="details ">
+                        <div class="content">
+                            <span>Initial release date</span> : March 22, 2019<br>
+                            <span>Developer</span> : FromSoftware Inc.<br>
+                            <span>Publisher</span> : Activision<br>
+                            <span>type</span> : Action-adventure<br>
+                            <span>Platforms</span> : Microsoft Windows, PlayStation 4, Xbox One, Stadia
+                        </div>
+                    </div>
+                </div>
+                <div class="card w-50">
+                    <div class="imgbox  w-100">
+                        <img src="image/04.jpg" style="width:100%" alt="Sekiro: Shadows Die Twice">
+                        <div class="back">
+                            <h2>Sekiro: Shadows Die Twice</h2>
+                            <p>Sekiro: Shadows Die Twice is a 2019 action-adventure game developed by FromSoftware and published by Activision. The game follows a shinobi known as Wolf as he attempts to take revenge on a samurai clan who attacked him and kidnapped his lord.</p>
+                        </div>
+                    </div>
+                    <div class="details ">
+                        <div class="content">
+                            <span>Initial release date</span> : March 22, 2019<br>
+                            <span>Developer</span> : FromSoftware Inc.<br>
+                            <span>Publisher</span> : Activision<br>
+                            <span>type</span> : Action-adventure<br>
+                            <span>Platforms</span> : Microsoft Windows, PlayStation 4, Xbox One, Stadia
+                        </div>
+                    </div>
+                </div>
+                <div class="card w-50">
+                    <div class="imgbox w-100">
+                        <img src="image/05.jpg" style="width:100%" alt="Sekiro: Shadows Die Twice">
+                        <div class="back">
+                            <h2>Sekiro: Shadows Die Twice</h2>
+                            <p>Sekiro: Shadows Die Twice is a 2019 action-adventure game developed by FromSoftware and published by Activision. The game follows a shinobi known as Wolf as he attempts to take revenge on a samurai clan who attacked him and kidnapped his lord.</p>
+                        </div>
+                    </div>
+                    <div class="details ">
+                        <div class="content">
+                            <span>Initial release date</span> : March 22, 2019<br>
+                            <span>Developer</span> : FromSoftware Inc.<br>
+                            <span>Publisher</span> : Activision<br>
+                            <span>type</span> : Action-adventure<br>
+                            <span>Platforms</span> : Microsoft Windows, PlayStation 4, Xbox One, Stadia
+                        </div>
+                    </div>
+                </div>
+                <div class="card w-50">
+                    <div class="imgbox w-100">
+                        <img src="image/06.jpg" style="width:100%" alt="Sekiro: Shadows Die Twice">
+                        <div class="back">
+                            <h2>Sekiro: Shadows Die Twice</h2>
+                            <p>Sekiro: Shadows Die Twice is a 2019 action-adventure game developed by FromSoftware and published by Activision. The game follows a shinobi known as Wolf as he attempts to take revenge on a samurai clan who attacked him and kidnapped his lord.</p>
+                        </div>
+                    </div>
+                    <div class="details ">
+                        <div class="content">
+                            <span>Initial release date</span> : March 22, 2019<br>
+                            <span>Developer</span> : FromSoftware Inc.<br>
+                            <span>Publisher</span> : Activision<br>
+                            <span>type</span> : Action-adventure<br>
+                            <span>Platforms</span> : Microsoft Windows, PlayStation 4, Xbox One, Stadia
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- cards two -->
+        <div class="container mt-5">
+            <div class="text-center">
+                <h1 style="font-family: 'Dancing Script'" class="text-danger animate__backInLeft wow animate__12">PEOPLE SAY</h1>
+                <h1 class="animate__backInRight wow animate__12">- TESTMONAILS -</h1>
+            </div>
+        </div>
+        
+        
+        
+        
 
 
 
@@ -187,6 +377,7 @@
 
 
 <script src="js/wow.min.js"></script>
+<script src="js/main.js"></script>
 
 
 <script>
